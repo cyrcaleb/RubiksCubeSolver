@@ -44,16 +44,15 @@ A Rubik's Cube has 43 Quintillion different scrambles. However, each and every o
 2. The right side could technically be preloaded as a JSON file since the calculations will always be the same since we are always solving from a solved state.
 3. We can make our map memory efficient
    - Rather than storing the cube map as:
-   - #   Cube Map: -> 
-    #   Centers piecies will always be in the same orientation
-    #             W W W
-    #             W w W
-    #             W W W
+   -   Cube Map: Center piecies will always be in the same orientation
+                 W W W
+                 W w W
+                 W W W
     
-    #   G G G     R R R     B B B     O O O
-    #   G g G     R r R     B b B     O o O
-    #   G G G     R R R     B B B     O O O
+       G G G     R R R     B B B     O O O
+       G g G     R r R     B b B     O o O
+       G G G     R R R     B B B     O O O
     
-    #             Y Y Y
-    #             Y y Y
-    #             Y Y Y
+                 Y Y Y
+                 Y y Y
+                 Y Y Y
