@@ -45,13 +45,16 @@ A Rubik's Cube has 43 Quintillion different scrambles. However, each and every o
 3. We can make our map memory efficient
    - Rather than storing the cube map as:
    -   Cube Map: Center piecies will always be in the same orientation
-   -   
+   ```
                  W W W
                  W w W
                  W W W
+   
        G G G     R R R     B B B     O O O
        G g G     R r R     B b B     O o O
        G G G     R R R     B B B     O O O
+   
                  Y Y Y
                  Y y Y
                  Y Y Y
+   ```
