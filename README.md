@@ -36,3 +36,4 @@ A Rubik's Cube has 43 Quintillion different scrambles. However, each and every o
 - But we can actually simultaneous do the same thing but in reverse
 - What I mean is that we can start from a solved cube and scramble it move by move until
 - If we do this at the same time we find all possible move states from the scrambled start, we will eventually find a state in the middle that is common on both sides (Here is a Visual).
+![image](https://github.com/cyrcaleb/RubiksCubeSolver/assets/90429575/905c8bb7-1c0b-483d-a7ec-40cd8c3263c3)
