@@ -44,7 +44,7 @@ A Rubik's Cube has 43 Quintillion different scrambles. However, each and every o
 2. The right side could technically be preloaded as a JSON file since the calculations will always be the same since we are always solving from a solved state.
 3. We can make our map memory efficient
    - Rather than storing the cube map as:
-   -   Cube Map: Center piecies will always be in the same orientation
+   - Cube Map: Center piecies will always be in the same orientation
    ```
                  W W W
                  W w W
@@ -58,3 +58,5 @@ A Rubik's Cube has 43 Quintillion different scrambles. However, each and every o
                  Y y Y
                  Y Y Y
    ```
+   - It can be stored as a number in binary where the colors are mapped via a segmentColorMap => {W: 0b1000, B: 0b1001, R: 0b1010, G: 0b1011, O: 0b1100, Y: 0b1101}
+   
